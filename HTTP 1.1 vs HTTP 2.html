@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP 1.1 vs HTTP 2</title>
+</head>
+<style>
+    table, th, td {
+      border:2px solid black;
+    }
+    </style>
+    
+<body style="background-color : whitesmoke">
+  <img src="image/html.gif" align ='right'  alt="html image" >
+  <h1 style="color :palevioletred"><b> Difference between HTTP1.1 vs HTTP2</b></h1>
+  <h2 style="color : red">HTML 1.1 vs HTML 2 </h2>
+    <p style="color : blueviolet">HTTP stands for hypertext transfer protocol, and it is the basis for almost all web applications.<br>
+       More specifically, HTTP is the method computers and servers use to request and send information.<br>
+        For instance, when someone navigates to cloudflare.com on their laptop, their web browser sends an<br>
+         HTTP request to the Cloudflare servers for the content that appears on the page.<br> 
+         Then, Cloudflare servers send HTTP responses with the text, images, and formatting that the browser displays to the user.</p>
+    
+    <h2 style="color : green">About HTTP 1.1</h2>
+    <p style="color :black ">The first usable version of HTTP was created in 1997. Because it went through several stages of development, <br>
+      this first version of HTTP was called HTTP/1.1. This version is still in use on the web. In 2015.</p>
+    
+      <h2 style="color : green">About HTTP 2</h2>
+    <p style="color : darkorange" >a new version of HTTP called HTTP/2 was created.<br>
+        HTTP/2 solves several problems that the creators of HTTP/1.1 did not anticipate. <br>
+        In particular, HTTP/2 is much faster and more efficient than HTTP/1.1.<br>
+         One of the ways in which HTTP/2 is faster is in how it prioritizes content during the loading process</p>
+        
+         <h2 style="color : violet">What is prioritization?</h2>
+         <p style="color : blue">In the context of web performance, prioritization refers to the order in which pieces of content are loaded
+          Prioritization affects a webpage's load time. For example, certain resources,<br>
+             like large JavaScript files, may block the rest of the page from loading if they have to load first.<br> 
+            More of the page can load at once if these render-blocking resources load last.</p>
+         
+         
+            <h2>Main Diffrence between the HTML 1.1 & HTML 2</h2>
+         <center>
+          
+        <table style="width:100%">
+        <tr>
+          <th style="color : red">Elements</th>
+          <th style="color : red">HTTP 1.1</th>
+          <th style="color : red">HTTP 2</th>
+        </tr>
+        <tr>
+          <td>Multiplexing</td>
+          <td>HTTP/1.1 loads resources one after the other,<br> so if one resource cannot be loaded, <br>
+            it blocks all the other resources behind it.</td>
+          <td> HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.</td>
+        </tr>
+        <tr>
+          <td>Server push</td>
+          <td>Typically, a server only serves content to a client device if the client asks for it. However, this approach is not always practical for modern webpages,<br>
+             which often involve several dozen separate resources that the client must request.</td>
+          <td>HTTP/2 solves this problem by allowing a server to "push" content to a client before the client asks for it. The server also sends a message letting</td>
+        </tr>
+        <tr>
+          <td>Header compression</td>
+          <td>mall files load more quickly than large ones. To speed up web performance, both HTTP/1.1 and HTTP/2 compress HTTP messages to make them smaller.</td>
+          <td>However, HTTP/2 uses a more advanced compression method called HPACK that eliminates redundant information in HTTP header packets.<br> 
+            those bytes add up quickly, resulting in faster loading.</td>
+        </tr>
+      </table>
+      <h3 style="color: deeppink;">Thanyou!!!</h3>
+    </center>
+
+
+<br>
+<br>
+<br>
+<br>
+
+  </body>
+</html>
